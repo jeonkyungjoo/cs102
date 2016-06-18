@@ -1,0 +1,99 @@
+package game; 
+import java.util.Scanner; 
+import java.util.Random;
+
+public class TempleGame {
+public static void main (String[] args){
+
+    // System Objects
+    Scanner in = new Scanner(System.in);
+    Random rand = new Random(); 
+    
+     // Game variables
+        System.out.println("What is your name?"); 
+      
+     
+     Player p1 = new Player("Hi"); 
+     System.out.println (p1.name); 
+      
+      int Hi _money = $100 and and 0 Zen points;
+     
+  } 
+
+  String[] enemies = {"bat", "zombie", "dog", "witch" };
+  System.out.println("What would you like to do now?");
+        System.out.println("1. Continue fighting");
+        System.out.println("2. Exit game");         
+        String input = in.nextLine();
+        while(!input.equals("1") && !input.equals("2")) {
+            System.out.println("invalid Command!");
+            input = in.nextLine(); 
+        }
+        if(input.equals("1")) { 
+            System.out.println("You continue on your adventure!");
+        }
+        else if (input.equals("2")) {
+            System.out.println("You exit the temple, successful from your adventures!"); 
+            break;
+            
+    int Meditate 0$ + 1 Zen 
+    int enemyAttackDamage = 25; 
+
+    // Player Variables
+    int strong = 100;       // How much strong we have
+    int attack = 50;  // How much attack our player can do
+    boolean running = true; 
+    GAME: 
+    while (running) {
+    
+     int Help someone -10$ + 5 Zen 
+    int enemyAttackDamage = 50; 
+
+    // Player Variables
+    int strong = 50;       // How much strong we have
+    int attack = 100;  // How much attack our player can do
+    boolean running = true; 
+    GAME: 
+    while (running) {   
+    
+    int Work at Company 50$ + -30 Zen 
+    int enemyAttackDamage = 15; 
+
+    // Player Variables
+    int strong = 45;       // How much strong we have
+    int attack = 15;  // How much attack our player can do
+    boolean running = true; 
+    GAME: 
+    while (running) {    
+    
+   int Purchase Temple +90$ +  
+    int enemyAttackDamage = 15; 
+
+    // Player Variables
+    int strong = 45;       // How much strong we have
+    int attack = 15;  // How much attack our player can do
+    boolean running = true; 
+    GAME: 
+    while (running) {    
+        
+     }
+        System.out.println("---------------------------------------------");
+        System.out.println("What would you like to do now?");
+        System.out.println("1. Continue fighting");
+        System.out.println("2. Exit game");         
+        String input = in.nextLine();
+        while(!input.equals("1") && !input.equals("2")) {
+            System.out.println("invalid Command!");
+            input = in.nextLine(); 
+        }
+        if(input.equals("1")) { 
+            System.out.println("You continue on your adventure!");
+        }
+        else if (input.equals("2")) {
+            System.out.println("You exit the dengeon, successful from your adventures!"); 
+            break;
+        }
+    }           
+}          
+
+System.out.println("# THANKS FOR PLAYING! #");
